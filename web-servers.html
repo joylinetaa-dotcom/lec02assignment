@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Servers — Internet Terminology</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">
+    <span>Topic 1</span>
+    <h2>Internet Terminology</h2>
+  </div>
+  <ul>
+    <li><a href="index.html"><span class="num">00</span> Home</a></li>
+    <li><a href="www.html"><span class="num">01</span> World Wide Web</a></li>
+    <li><a href="tcp-ip.html"><span class="num">02</span> TCP/IP</a></li>
+    <li><a href="web-browsers.html"><span class="num">03</span> Web Browsers</a></li>
+    <li><a href="web-servers.html" class="active"><span class="num">04</span> Web Servers</a></li>
+    <li><a href="url.html"><span class="num">05</span> URL</a></li>
+    <li><a href="dns.html"><span class="num">06</span> DNS</a></li>
+    <li><a href="http.html"><span class="num">07</span> HTTP</a></li>
+    <li><a href="intranet.html"><span class="num">08</span> Intranet</a></li>
+    <li><a href="extranet.html"><span class="num">09</span> Extranet</a></li>
+    <li><a href="multitier.html"><span class="num">10</span> Multitier Architecture</a></li>
+    <li><a href="ftp.html"><span class="num">11</span> FTP</a></li>
+    <li><a href="html.html"><span class="num">12</span> HTML</a></li>
+    <li><a href="web1.html"><span class="num">13</span> Web 1.0</a></li>
+    <li><a href="web2.html"><span class="num">14</span> Web 2.0</a></li>
+    <li><a href="web3.html"><span class="num">15</span> Web 3.0</a></li>
+    <li><a href="web4.html"><span class="num">16</span> Web 4.0</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="hero">
+    <div class="hero-tag">Term 04 — Server Infrastructure</div>
+    <h1><span class="highlight">Web Servers</span></h1>
+    <p class="subtitle">Hardware or software systems that store, process, and deliver web pages to clients over HTTP or HTTPS upon request.</p>
+  </div>
+
+  <div class="content">
+
+    <div class="term-image">
+      <img src="images/web-servers.jpg" alt="Web server infrastructure" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+      <div class="img-placeholder" style="display:none">
+        <span>📷</span>
+        <span>Add your image: images/web-servers.jpg</span>
+      </div>
+    </div>
+
+    <div class="definition">
+      <h2>DEFINITION</h2>
+      <p>A web server is a computer system — hardware, software, or both — that stores web content such as HTML pages, images, and files, and delivers them to clients (web browsers) over the Internet using the HTTP or HTTPS protocol whenever a request is made.</p>
+    </div>
+
+    <h2 class="section-heading">How It Works</h2>
+    <div class="prose">
+      <p>Web servers like Apache, Nginx, and Microsoft IIS listen for incoming HTTP requests on port 80 or HTTPS requests on port 443. When a request arrives from a browser, the server locates the requested file or generates dynamic content and sends a response back.</p>
+      <p>The response includes a status code such as 200 OK (success), 404 Not Found (missing page), or 500 Internal Server Error (server problem), along with the requested content that the browser then renders for the user.</p>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>Popular Software</h3>
+        <p>Apache, Nginx, Microsoft IIS, LiteSpeed, and Caddy are widely used web servers.</p>
+      </div>
+      <div class="info-card">
+        <h3>HTTP Port</h3>
+        <p>Web servers listen on port 80 for standard HTTP requests by default.</p>
+      </div>
+      <div class="info-card">
+        <h3>HTTPS Port</h3>
+        <p>Secure HTTPS connections use port 443 with TLS/SSL encryption.</p>
+      </div>
+      <div class="info-card">
+        <h3>Response Format</h3>
+        <p>Returns an HTTP status code plus the requested content such as HTML or images.</p>
+      </div>
+    </div>
+
+    <div class="related">
+      <h3>RELATED TERMS</h3>
+      <div class="related-links">
+        <a href="http.html">HTTP</a>
+        <a href="web-browsers.html">Web Browsers</a>
+        <a href="url.html">URL</a>
+        <a href="ftp.html">FTP</a>
+        <a href="multitier.html">Multitier Architecture</a>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+</body>
+</html>
