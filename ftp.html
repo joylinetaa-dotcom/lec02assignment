@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FTP — Internet Terminology</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">
+    <span>Topic 1</span>
+    <h2>Internet Terminology</h2>
+  </div>
+  <ul>
+    <li><a href="index.html"><span class="num">00</span> Home</a></li>
+    <li><a href="www.html"><span class="num">01</span> World Wide Web</a></li>
+    <li><a href="tcp-ip.html"><span class="num">02</span> TCP/IP</a></li>
+    <li><a href="web-browsers.html"><span class="num">03</span> Web Browsers</a></li>
+    <li><a href="web-servers.html"><span class="num">04</span> Web Servers</a></li>
+    <li><a href="url.html"><span class="num">05</span> URL</a></li>
+    <li><a href="dns.html"><span class="num">06</span> DNS</a></li>
+    <li><a href="http.html"><span class="num">07</span> HTTP</a></li>
+    <li><a href="intranet.html"><span class="num">08</span> Intranet</a></li>
+    <li><a href="extranet.html"><span class="num">09</span> Extranet</a></li>
+    <li><a href="multitier.html"><span class="num">10</span> Multitier Architecture</a></li>
+    <li><a href="ftp.html" class="active"><span class="num">11</span> FTP</a></li>
+    <li><a href="html.html"><span class="num">12</span> HTML</a></li>
+    <li><a href="web1.html"><span class="num">13</span> Web 1.0</a></li>
+    <li><a href="web2.html"><span class="num">14</span> Web 2.0</a></li>
+    <li><a href="web3.html"><span class="num">15</span> Web 3.0</a></li>
+    <li><a href="web4.html"><span class="num">16</span> Web 4.0</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="hero">
+    <div class="hero-tag">Term 11 — File Transfer</div>
+    <h1><span class="highlight">FTP</span></h1>
+    <p class="subtitle">File Transfer Protocol — a standard network protocol used to transfer files between a client and a server over a TCP/IP network.</p>
+  </div>
+
+  <div class="content">
+
+    <div class="term-image">
+      <img src="images/ftp.jpg" alt="FTP file transfer diagram" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+      <div class="img-placeholder" style="display:none">
+        <span>📷</span>
+        <span>Add your image: images/ftp.jpg</span>
+      </div>
+    </div>
+
+    <div class="definition">
+      <h2>DEFINITION</h2>
+      <p>File Transfer Protocol (FTP) is a standard network protocol used to transfer files from one computer to another over a TCP/IP network. It allows users to upload files to a server or download files from a server using an FTP client application.</p>
+    </div>
+
+    <h2 class="section-heading">How It Works</h2>
+    <div class="prose">
+      <p>FTP uses two separate channels. The command channel on port 21 is used to send instructions and responses between the client and server. The data channel on port 20 is used for the actual transfer of file data. Users typically authenticate with a username and password before accessing files.</p>
+      <p>Because standard FTP does not encrypt data, more secure variants have been developed. SFTP (SSH File Transfer Protocol) and FTPS (FTP Secure) both encrypt the connection to protect usernames, passwords, and file contents during transfer.</p>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>Command Port</h3>
+        <p>Port 21 is used for sending FTP commands and receiving server responses.</p>
+      </div>
+      <div class="info-card">
+        <h3>Data Port</h3>
+        <p>Port 20 is used for the actual transfer of file data between client and server.</p>
+      </div>
+      <div class="info-card">
+        <h3>Secure Versions</h3>
+        <p>SFTP and FTPS add encryption to protect data transferred over the network.</p>
+      </div>
+      <div class="info-card">
+        <h3>Common Clients</h3>
+        <p>FileZilla, WinSCP, and Cyberduck are popular FTP client applications.</p>
+      </div>
+    </div>
+
+    <div class="related">
+      <h3>RELATED TERMS</h3>
+      <div class="related-links">
+        <a href="tcp-ip.html">TCP/IP</a>
+        <a href="http.html">HTTP</a>
+        <a href="url.html">URL</a>
+        <a href="web-servers.html">Web Servers</a>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+</body>
