@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DNS — Internet Terminology</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">
+    <span>Topic 1</span>
+    <h2>Internet Terminology</h2>
+  </div>
+  <ul>
+    <li><a href="index.html"><span class="num">00</span> Home</a></li>
+    <li><a href="www.html"><span class="num">01</span> World Wide Web</a></li>
+    <li><a href="tcp-ip.html"><span class="num">02</span> TCP/IP</a></li>
+    <li><a href="web-browsers.html"><span class="num">03</span> Web Browsers</a></li>
+    <li><a href="web-servers.html"><span class="num">04</span> Web Servers</a></li>
+    <li><a href="url.html"><span class="num">05</span> URL</a></li>
+    <li><a href="dns.html" class="active"><span class="num">06</span> DNS</a></li>
+    <li><a href="http.html"><span class="num">07</span> HTTP</a></li>
+    <li><a href="intranet.html"><span class="num">08</span> Intranet</a></li>
+    <li><a href="extranet.html"><span class="num">09</span> Extranet</a></li>
+    <li><a href="multitier.html"><span class="num">10</span> Multitier Architecture</a></li>
+    <li><a href="ftp.html"><span class="num">11</span> FTP</a></li>
+    <li><a href="html.html"><span class="num">12</span> HTML</a></li>
+    <li><a href="web1.html"><span class="num">13</span> Web 1.0</a></li>
+    <li><a href="web2.html"><span class="num">14</span> Web 2.0</a></li>
+    <li><a href="web3.html"><span class="num">15</span> Web 3.0</a></li>
+    <li><a href="web4.html"><span class="num">16</span> Web 4.0</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="hero">
+    <div class="hero-tag">Term 06 — Naming System</div>
+    <h1><span class="highlight">DNS</span></h1>
+    <p class="subtitle">Domain Name System — the Internet's phonebook that translates human-readable domain names into machine-readable IP addresses.</p>
+  </div>
+
+  <div class="content">
+
+    <div class="term-image">
+      <img src="images/dns.jpg" alt="DNS resolution diagram" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+      <div class="img-placeholder" style="display:none">
+        <span>📷</span>
+        <span>Add your image: images/dns.jpg</span>
+      </div>
+    </div>
+
+    <div class="definition">
+      <h2>DEFINITION</h2>
+      <p>The Domain Name System (DNS) is a hierarchical naming system that translates human-friendly domain names such as www.example.com into numerical IP addresses such as 192.168.1.1 that computers use to identify each other on a network.</p>
+    </div>
+
+    <h2 class="section-heading">How It Works</h2>
+    <div class="prose">
+      <p>When you type a domain name into your browser, your computer first checks its local cache. If the address is not found, it queries your ISP's DNS resolver, which in turn contacts root servers, then top-level domain servers, and finally the authoritative name server for that domain to retrieve the correct IP address.</p>
+      <p>DNS uses a distributed database across thousands of servers worldwide. This makes it fast, reliable, and resilient. Without DNS, users would need to memorise the numeric IP address of every website they want to visit.</p>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>Full Name</h3>
+        <p>Domain Name System — the global directory of domain names and IP addresses.</p>
+      </div>
+      <div class="info-card">
+        <h3>Record Types</h3>
+        <p>A, AAAA, CNAME, MX, and TXT are common DNS record types with different purposes.</p>
+      </div>
+      <div class="info-card">
+        <h3>Default Port</h3>
+        <p>DNS operates on port 53 using both UDP and TCP protocols.</p>
+      </div>
+      <div class="info-card">
+        <h3>Purpose</h3>
+        <p>Resolves domain names to IP addresses so browsers can find web servers.</p>
+      </div>
+    </div>
+
+    <div class="related">
+      <h3>RELATED TERMS</h3>
+      <div class="related-links">
+        <a href="tcp-ip.html">TCP/IP</a>
+        <a href="url.html">URL</a>
+        <a href="http.html">HTTP</a>
+        <a href="www.html">World Wide Web</a>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+</body>
+</html>
+
