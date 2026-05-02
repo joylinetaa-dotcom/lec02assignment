@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>URL — Internet Terminology</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  <div class="nav-logo">
+    <span>Topic 1</span>
+    <h2>Internet Terminology</h2>
+  </div>
+  <ul>
+    <li><a href="index.html"><span class="num">00</span> Home</a></li>
+    <li><a href="www.html"><span class="num">01</span> World Wide Web</a></li>
+    <li><a href="tcp-ip.html"><span class="num">02</span> TCP/IP</a></li>
+    <li><a href="web-browsers.html"><span class="num">03</span> Web Browsers</a></li>
+    <li><a href="web-servers.html"><span class="num">04</span> Web Servers</a></li>
+    <li><a href="url.html" class="active"><span class="num">05</span> URL</a></li>
+    <li><a href="dns.html"><span class="num">06</span> DNS</a></li>
+    <li><a href="http.html"><span class="num">07</span> HTTP</a></li>
+    <li><a href="intranet.html"><span class="num">08</span> Intranet</a></li>
+    <li><a href="extranet.html"><span class="num">09</span> Extranet</a></li>
+    <li><a href="multitier.html"><span class="num">10</span> Multitier Architecture</a></li>
+    <li><a href="ftp.html"><span class="num">11</span> FTP</a></li>
+    <li><a href="html.html"><span class="num">12</span> HTML</a></li>
+    <li><a href="web1.html"><span class="num">13</span> Web 1.0</a></li>
+    <li><a href="web2.html"><span class="num">14</span> Web 2.0</a></li>
+    <li><a href="web3.html"><span class="num">15</span> Web 3.0</a></li>
+    <li><a href="web4.html"><span class="num">16</span> Web 4.0</a></li>
+  </ul>
+</nav>
+
+<main>
+  <div class="hero">
+    <div class="hero-tag">Term 05 — Addressing</div>
+    <h1><span class="highlight">URL</span></h1>
+    <p class="subtitle">Uniform Resource Locator — the standardised address used to locate resources such as web pages, images, and files on the Internet.</p>
+  </div>
+
+  <div class="content">
+
+    <div class="term-image">
+      <img src="images/url.jpg" alt="URL structure diagram" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+      <div class="img-placeholder" style="display:none">
+        <span>📷</span>
+        <span>Add your image: images/url.jpg</span>
+      </div>
+    </div>
+
+    <div class="definition">
+      <h2>DEFINITION</h2>
+      <p>A Uniform Resource Locator (URL) is the complete web address used to identify and locate a specific resource on the Internet. It tells the browser what protocol to use, which server to connect to, and which specific resource to request from that server.</p>
+    </div>
+
+    <h2 class="section-heading">How It Works</h2>
+    <div class="prose">
+      <p>A URL is made up of several parts. The protocol (https://) tells the browser how to connect. The domain name (www.example.com) identifies the server. The path (/page/about) points to a specific resource. Optional query strings (?id=1) pass extra information to the server.</p>
+      <p>When you enter a URL, your browser first asks DNS to resolve the domain name into an IP address. It then connects to that IP on the correct port and requests the resource at the given path. The server returns the resource if it exists.</p>
+    </div>
+
+    <div class="info-grid">
+      <div class="info-card">
+        <h3>Structure</h3>
+        <p>protocol://domain/path?query — each part plays a specific role in locating a resource.</p>
+      </div>
+      <div class="info-card">
+        <h3>Protocol Part</h3>
+        <p>Specifies how to connect — common values are http, https, and ftp.</p>
+      </div>
+      <div class="info-card">
+        <h3>Domain Part</h3>
+        <p>The human-readable server name that is resolved to an IP address via DNS.</p>
+      </div>
+      <div class="info-card">
+        <h3>Example</h3>
+        <p>https://www.example.com/page?id=1 is a complete URL with all parts included.</p>
+      </div>
+    </div>
+
+    <div class="related">
+      <h3>RELATED TERMS</h3>
+      <div class="related-links">
+        <a href="dns.html">DNS</a>
+        <a href="http.html">HTTP</a>
+        <a href="web-browsers.html">Web Browsers</a>
+        <a href="ftp.html">FTP</a>
+        <a href="www.html">World Wide Web</a>
+      </div>
+    </div>
+
+  </div>
+</main>
+
+</body>
+</html>
